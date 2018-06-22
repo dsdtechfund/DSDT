@@ -1,0 +1,16 @@
+{application, dsdtchain, [
+    {description, "The Block Chain for Data Science and Data Technology"},
+    {vsn, git},
+    {registered, []},
+    {applications, [
+        kernel,
+        stdlib,
+        lager,
+        libp2p,
+        ecc_compact,
+        bitcask,
+        ranch
+    ]},
+    {registered, []},
+    {env, []}
+ ]}.
